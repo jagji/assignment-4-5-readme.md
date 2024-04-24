@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Change this to your name-->
+    <meta name="author" content="Masoumeh Hosseinnazhad" />
+
+    <title>My Playlist</title>
+    <link rel="stylesheet" href="css/water.css" type="text/css" />
+  </head>
+
+  <body class="bodyAnimate">
+    <header class="header">
+      <h1 style="line-height: 1; margin-top: 0%; margin-bottom: 2px">Music</h1>
+      <p style="line-height: 0; margin-bottom: 0px">My Playlist</p>
+      <h6 style="line-height: 0; margin-bottom: 0px"><em>Est. 2024</em></h6>
+    </header>
+    <hr />
+    <p style="margin-bottom: 0.2px">Select the genre you're looking for!</p>
+    <nav id="menu">
+      <!-- Dynamically create your menu category buttons here -->
+    </nav>
+
+    <hr />
+
+    <main>
+      <h2 id="selected-category">
+        <!-- Dynamically update the selected category title -->
+      </h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Song Name</th>
+            <th>Year Recorded</th>
+            <th>Duration (mm:ss)</th>
+          </tr>
+        </thead>
+        <tbody id="category-products">
+          <!-- Dynamically create your product rows here -->
+        </tbody>
+      </table>
+    </main>
+    <footer>Made by Masoumeh Hosseinnazhad - WEB222 Assignment 4</footer>
+    <!-- JavaScript Data Files -->
+    <script src="./js/artists.js"></script>
+    <script src="./js/songs.js"></script>
+
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
